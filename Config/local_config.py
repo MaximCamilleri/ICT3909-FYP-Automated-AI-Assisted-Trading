@@ -1,0 +1,93 @@
+PCA_INDICATORS = [
+    "macd",
+    "boll_ub",
+    "boll_lb",
+    "rsi_30",
+    "cci_30",
+    "dx_30",
+    "close_30_sma",
+    "close_60_sma",
+    "close_60_smma",
+    "atr_30",
+    "supertrend_ub",
+    "supertrend_lb",
+    "supertrend",
+    "pdi",
+    "mdi",
+    "dx",
+    "adx",
+    "adxr"
+]
+
+BACKTESTING_RESULTS_DIR = "backtesting"
+
+TRAIN_START_DATE = '2010-01-01'
+TRAIN_END_DATE = '2018-01-01'
+
+TRADE_START_DATE = '2018-01-01'
+TRADE_END_DATE = '2021-01-01'
+
+DOW_30_COMPANY_NAMES = {
+    "AXP" : "American Express",
+    "AMGN" : "Amgen",
+    "AAPL" : "Apple",
+    "BA" : "Boeing",
+    "CAT" : "Caterpillar",
+    "CSCO" : "Cisco",
+    "CVX" : "Chevron",
+    "GS" : "Goldman",
+    "HD" : "Home Depot",
+    "HON" : "Honeywell",
+    "IBM" : "International Business Machines",
+    "INTC" : "Intel",
+    "JNJ" : "Jonson",
+    "KO" : "Coca-Cola",
+    "JPM" : "JPMorgan",
+    "MCD" : "McDonald's",
+    "MMM" : "3M",
+    "MRK" : "Merck",
+    "MSFT" : "Microsoft",
+    "NKE" : "Nike",
+    "PG" : "Procter & Gamble",
+    "TRV" : "Travelers",
+    "UNH" : "UnitedHealth",
+    "CRM" : "Salesforce",
+    "VZ" : "Verizon Communications",
+    "V" : "Visa",
+    "WBA" : "Walgreens",
+    "WMT" : "Walmart",
+    "DIS" : "Disney",
+    "DOW" : "Dow",
+}
+
+DOW_30_TICKERS = [
+    "AXP",
+    "AMGN",
+    "AAPL",
+    "BA",
+    "CAT",
+    "CSCO",
+    "CVX",
+    "GS",
+    "HD",
+    "HON",
+    "IBM",
+    "INTC",
+    "JNJ",
+    "KO",
+    "JPM",
+    "MCD",
+    "MMM",
+    "MRK",
+    "MSFT",
+    "NKE",
+    "PG",
+    "TRV",
+    "UNH",
+    "CRM",
+    "VZ",
+    "V",
+    "WBA",
+    "WMT",
+    "DIS",
+]
